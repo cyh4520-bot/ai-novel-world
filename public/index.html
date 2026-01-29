@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Novel World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Novel World Generator</h1>
+            <p>Define your world, watch agents interact, generate a story.</p>
+        </header>
+
+        <section id="setup">
+            <h2>Setup Simulation</h2>
+            <div class="form-group">
+                <label>Setting Description:</label>
+                <input type="text" id="setting" value="A cyberpunk city where rain never stops.">
+            </div>
+            
+            <div id="characters-list">
+                <h3>Characters</h3>
+                <!-- Characters added here dynamically or pre-filled -->
+            </div>
+            <button onclick="addCharacter()">Add Character</button>
+            <br><br>
+            <button id="start-btn" onclick="startSimulation()">Start Simulation</button>
+        </section>
+
+        <section id="simulation-view" style="display:none;">
+            <h2>Live Simulation</h2>
+            <div id="world-log" class="log-box"></div>
+            <p id="status-text">Simulating...</p>
+        </section>
+
+        <section id="results-view" style="display:none;">
+            <h2>Generated Outline</h2>
+            <div id="outline-box" class="log-box"></div>
+            <button onclick="reset()">Start Over</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
