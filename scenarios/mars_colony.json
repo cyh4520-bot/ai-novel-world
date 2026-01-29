@@ -1,0 +1,20 @@
+{
+  "setting": "Mars Colony 'Ares Prime', a fragile dome habitat battered by dust storms, where resource scarcity drives tension.",
+  "characters": [
+    {
+      "name": "Commander Lewis",
+      "goal": "Keep the colony alive until the supply ship arrives",
+      "traits": ["Stoic", "Authoritative", "Stressed"]
+    },
+    {
+      "name": "Dr. Aris",
+      "goal": "Prove that the Martian soil can sustain mutant crops",
+      "traits": ["Obsessive", "Intellectual", "Secretive"]
+    },
+    {
+      "name": "Unit TARS",
+      "goal": "Optimize resource allocation at all costs",
+      "traits": ["Logical", "Cold", "Loyal"]
+    }
+  ]
+}
